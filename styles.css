@@ -8,6 +8,8 @@ div {
 
 #faultyItems {
    visibility: hidden;   
+   display: block;
+   text-align: center;
 }
 
 #launchForm {

@@ -32,10 +32,9 @@ window.addEventListener("load", function() {
     
     let form = document.querySelector("form");
     form.addEventListener("submit", function(event) {
-
-        formSubmission(document, list, pilot, copilot, fuel, cargo);
         
         event.preventDefault();
+        formSubmission(document, list, pilot, copilot, fuel, cargo);
     })
 
 });
